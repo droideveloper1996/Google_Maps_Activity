@@ -1,0 +1,22 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<fragment
+          xmlns:map="http://schemas.android.com/apk/res-auto"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/map"
+          android:name="com.google.android.gms.maps.SupportMapFragment"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          tools:context="tourguide.project.com.google_maps_activity.MapsActivity"/>
+    <Button
+        android:layout_marginBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Get Info"
+        android:id="@+id/info_btn"
+        android:background="@drawable/shape_button"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
